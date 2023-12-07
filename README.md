@@ -1,10 +1,10 @@
 # 4610-Project-2
 https://catalog.data.gov/dataset/baton-rouge-fire-incidents 
 
-Description of Dataset: 
+## Description of Dataset: 
 	Our dataset covers the emergency calls responded to by the Baton Rouge Fire Department. This dataset was found using the website https://catalog.data.gov/dataset. Our database contains a variety of data types. Examples of datatype number(whole) include Property Loss, Contents Loss, Fire Service Fatality, Fire Service Injury, Civilian Fatality, Civilian Injury, Property Value, Contents Value, Alarms, EMS Apparatus, EMS Personnel, etc. These data types contain whole numbers that describe each unique fire rescue mission. Our dataset also contains data string(VarChar) values such as Incident Number, Incident Description, Street Name, Formatted Street, City, State, Geolocation, etc. Finally, date/time data types are present in variables such as Dispatch Date, Dispatch Time, Control Date, Control Time, Clear Date, and Clear Time. Each one of the previous variables listed above describes individual fire rescues from the city of Baton Rouge.
 
-Question 1: 
+## Question 1: 
 In Baton Rouge, which zip codes had the most alarms triggered in the past year, excluding those with only 1 alarm? Based on the sum of alarms triggered per zip code, can determining the average fire control time reveal which zip codes need more fire rescue attention?
 
 Importance: 
@@ -15,7 +15,7 @@ The first graph shows a map of Baton Rouge by zip code. Each zip code shows the 
 
 This second graph shows the average fire control time from each zip code that was depicted in graph 1. Here we can clearly see that there is an increase in average control time from zip code 70802 - 70810. What is interesting about this, is that the peak of this increase, 70808 - 70810, are not listed as hot zones in graph number one. This is most likely because the city has already tried to place fire stations near urban areas, therefore making the average control time of 70802 - 70807 slightly lower, while alarm count still remains high. We can then start to question if these zip codes with the highest control time need more attention in the future. However, the good news is that the more rural zip codes show a very low average control time, which could mean that they are getting the adequate amount of fire rescue attention. 
 
-Question 2: 
+## Question 2: 
 In Baton Rouge, which types of fire incidents cause the most civilian injuries? Does this data align with the incidents that also had the most suppression personnel on hand, or should priority shift?
 
 Importance: 
@@ -24,6 +24,6 @@ Importance:
 
 Our second graph shows the average number of suppression personnel at each individual incident type. In the right column you can see the averages of the personnel. The darker shades represent a higher average for that specific incident type. We wanted to be able to show which incidents were being prioritized. In this graph, we can see that building fires, cooking fires, and unintentional fires were among the incidents with the most personnel on average. This aligns with our previous graph which showed that building fires were by far the most responsible for civilian injuries. However, incidents like unintentional transmissions and smoke detector activation were not mentioned in the previous graph. While these incidents are precautionary measures, it might be worth noting that other events such as cooking fires may be of a higher level of concern due to their injury rate. Another thing to note is the extremely low percentage of assisting the EMS crew. This statistic could be useful when determining how to lower the amount of civilian injuries due to fires. It should also be very clear to all personnel that a building fire is to be prioritized and taken seriously at any point in time. 
  
-Manipulations:
+## Manipulations:
 There were no manipulations made to the data set. We did, however, have to regulate the data set. This means that we picked certain parts of the data and used it to answer the questions we came up with. The quantitative data we chose was all meaningful and important. There were some outliers we found in the data, but we only chose to include the meaningful data. The first question we used was comparing Baton Rouge zip codes to alarms triggered. When making the graphs for this, we excluded the data that only had one alarm. We did this by removing them from the data set. The purpose of this was to ensure that our analysis only focused on the significant patterns, which would therefore improve the relevance of our conclusions. We chose to do this to focus on the meaningful data. The second question we used was comparing the types of fire incidents and civilian injuries. Similarly to the first question, there were pieces of data we excluded for this as well. We removed all Incident Descriptions with less than 500 total Suppression personnel. The purpose of this was to make our findings more precise and insightful. By excluding this data, it is more likely that the chosen events had significant impacts on emergency response resources and the well-being of civilians. We chose to focus on events that would undoubtedly have greater consequences, making the conclusions more meaningful. 
 

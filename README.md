@@ -50,7 +50,7 @@ Our second graph shows the average number of suppression personnel at each indiv
 There were no manipulations made to the data set. We did, however, have to regulate the data set. This means that we picked certain parts of the data and used it to answer the questions we came up with. The quantitative data we chose was all meaningful and important. There were some outliers we found in the data, but we only chose to include the meaningful data. The first question we used was comparing Baton Rouge zip codes to alarms triggered. When making the graphs for this, we excluded the data that only had one alarm. We did this by removing them from the data set. The purpose of this was to ensure that our analysis only focused on the significant patterns, which would therefore improve the relevance of our conclusions. We chose to do this to focus on the meaningful data. The second question we used was comparing the types of fire incidents and civilian injuries. Similarly to the first question, there were pieces of data we excluded for this as well. We removed all Incident Descriptions with less than 500 total Suppression personnel. The purpose of this was to make our findings more precise and insightful. By excluding this data, it is more likely that the chosen events had significant impacts on emergency response resources and the well-being of civilians. We chose to focus on events that would undoubtedly have greater consequences, making the conclusions more meaningful. 
 
 
-## Tableau Packaged Workbook
+## Tableau Packaged Workbook:
 
 The tableau package workbook containing the graphs shown above is attached to this repository
 

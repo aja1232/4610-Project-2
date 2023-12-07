@@ -1,4 +1,4 @@
-# 4610-Project-2
+# MIST4610 Project 2
 https://catalog.data.gov/dataset/baton-rouge-fire-incidents 
 
 ## Team Name:

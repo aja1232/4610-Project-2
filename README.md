@@ -1,12 +1,4 @@
 # 4610-Project-2
-echo "# 4610-Project-2" >> README.md
-  git init
-  git add README.md
-  git commit -m "first commit"
-  git branch -M main
-  git remote add origin https://github.com/aja1232/4610-Project-2.git
-  git push -u origin main
-
 https://catalog.data.gov/dataset/baton-rouge-fire-incidents 
 
 Description of Dataset: 
@@ -28,8 +20,6 @@ In Baton Rouge, which types of fire incidents cause the most civilian injuries? 
 
 Importance: 
 	This question is important because it is dealing with civilian safety. By asking which incidents result in the most civilian injuries, fire rescue teams can know which kinds of incidents need the most attention. After establishing which fires need more attention, rescue teams can then allocate the correct amount of resources in order to prevent injuries. Ideally, suppression personnel is on site for every incident type, however, this may not always be available or necessary. This is why suppression personnel should prioritize high injury rate incidents. 
-
-
 	In our first graph, we compared the sum of civilian injuries for each kind of incident. Instantly we knew that building fires were the main cause of injury. Even though this is a clear outlier, building fires are a very common incident and also a very general term that fire rescue teams use. This outlier is most likely due to the amount of building fire calls that occur in the city of Baton Rouge. All other incidents such as motor vehicle accidents, cooking fires, outside equipment, and other miscellaneous fires are fairly close in injury level. Even though these numbers were lower we wanted to make sure that these incidents were getting the correct amount of attention. After analyzing this data, the next question was to determine which incidents were being prioritized, and if those incidents aligned with the injury numbers. 
 
 Our second graph shows the average number of suppression personnel at each individual incident type. In the right column you can see the averages of the personnel. The darker shades represent a higher average for that specific incident type. We wanted to be able to show which incidents were being prioritized. In this graph, we can see that building fires, cooking fires, and unintentional fires were among the incidents with the most personnel on average. This aligns with our previous graph which showed that building fires were by far the most responsible for civilian injuries. However, incidents like unintentional transmissions and smoke detector activation were not mentioned in the previous graph. While these incidents are precautionary measures, it might be worth noting that other events such as cooking fires may be of a higher level of concern due to their injury rate. Another thing to note is the extremely low percentage of assisting the EMS crew. This statistic could be useful when determining how to lower the amount of civilian injuries due to fires. It should also be very clear to all personnel that a building fire is to be prioritized and taken seriously at any point in time. 

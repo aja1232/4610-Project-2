@@ -1,6 +1,16 @@
 # 4610-Project-2
 https://catalog.data.gov/dataset/baton-rouge-fire-incidents 
 
+## Team Name:
+
+15058, 15061 Group 1
+## Team Members:
+
+1. Jake Bogartz [@jab92323](https://github.com/jab92323)
+2. Aiden Abramowitz [@aja1232](https://github.com/aja1232)
+3. Max Young [@mxgyoung](https://github.com/mxgyoung)
+4. Kiefer Sturisky [@ksturisky](https://github.com/ksturisky)
+
 ## Description of Dataset: 
 	Our dataset covers the emergency calls responded to by the Baton Rouge Fire Department. This dataset was found using the website https://catalog.data.gov/dataset. Our database contains a variety of data types. Examples of datatype number(whole) include Property Loss, Contents Loss, Fire Service Fatality, Fire Service Injury, Civilian Fatality, Civilian Injury, Property Value, Contents Value, Alarms, EMS Apparatus, EMS Personnel, etc. These data types contain whole numbers that describe each unique fire rescue mission. Our dataset also contains data string(VarChar) values such as Incident Number, Incident Description, Street Name, Formatted Street, City, State, Geolocation, etc. Finally, date/time data types are present in variables such as Dispatch Date, Dispatch Time, Control Date, Control Time, Clear Date, and Clear Time. Each one of the previous variables listed above describes individual fire rescues from the city of Baton Rouge.
 
